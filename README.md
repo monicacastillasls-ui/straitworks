@@ -34,3 +34,7 @@ All UI copy lives in `content/site.ts`, typed and centralized. To add a Spanish 
 ## Deploying to Vercel
 
 This is a standard Next.js App Router project — connect the repository in Vercel and deploy with default settings. No environment variables are required for the current feature set.
+
+## Concepts
+
+- `public/concepts/netgear/index.html` — standalone 3D concept page (Spanish) for Netgear Gibraltar, built with Three.js from a CDN. Served at `/concepts/netgear/index.html`; it has no build step and is marked `noindex`.
