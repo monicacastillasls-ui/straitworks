@@ -34,3 +34,7 @@ All UI copy lives in `content/site.ts`, typed and centralized. To add a Spanish 
 ## Deploying to Vercel
 
 This is a standard Next.js App Router project — connect the repository in Vercel and deploy with default settings. No environment variables are required for the current feature set.
+
+## Other projects in this repository
+
+- `tours/` — client website for a private tour operator in Gibraltar (standalone Next.js app, EN/ES). See `tours/README.md`.

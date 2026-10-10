@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    @apply bg-sand-50 font-body text-stone-700 antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-display text-sea-900;
+  }
+
+  ::selection {
+    @apply bg-terracotta/20;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
